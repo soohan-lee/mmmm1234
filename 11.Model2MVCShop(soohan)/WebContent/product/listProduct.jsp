@@ -76,7 +76,7 @@
 															+"상 세 정 보:"+JSONData.prodDetail+"<br/>"
 															+"가        격:"+JSONData.price+"<br/>"
 															+"제 조 일 자:"+JSONData.manuDate+"<br/>"
-															+"파 일 사 진:"+JSONData.fileName+"<br/>"
+															+"파 일 사 진: <img src=../images/uploadFiles/"+JSONData.fileName+"/><br/>"
 															+"</h6>";
 								$("h6").remove();
 								$("#"+prodNo+"").html(displayValue);

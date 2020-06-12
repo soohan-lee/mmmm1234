@@ -84,7 +84,7 @@
 	</bean>
 	<bean id="multipartResolver" class="org.springframework.web.multipart.commons.CommonsMultipartResolver"/>
      <bean id="uploadPath" class="java.lang.String">
-     	<constructor-arg value="C:\\workspace\\11.Model2MVCShop(soohan)\\WebContent\\images\\uploadFiles"></constructor-arg>
+     	<constructor-arg value="C:\\Users\\user\\git\\repository8\\호이호이\\11.Model2MVCShop(soohan)\\WebContent\\images\\uploadFiles"></constructor-arg>
      </bean>
 	
 </beans>

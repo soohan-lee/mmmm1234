@@ -131,4 +131,10 @@
 		$( "a:contains('판매상품등록')").on("click",function(){
 			self.location="/product/addProductView.jsp";
 		});
+		$("a:contains('상 품 검 색')").on("click",function(){
+			self.location="/product/listProduct?menu=search";
+		});
+// 		$("a:contains('구매이력조회')").on("click",function(){
+// 			self.location="/purchase/listPurchase"
+// 		})
 	</script>  
